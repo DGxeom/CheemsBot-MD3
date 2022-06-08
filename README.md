@@ -1,6 +1,6 @@
 <h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩3ꫂ<br></h1>
 <p align="center">
-<img src="https://tenor.com/bRVCl.gif" alt="animated" width="540" height="300" />
+<img src="https://c.tenor.com/efxqFEXkqFsAAAAd/tenor.gif" alt="animated" />
 </p>
 
 <p align="center">
