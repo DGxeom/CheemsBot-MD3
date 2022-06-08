@@ -6471,7 +6471,7 @@ case 'ttaud':{
             	timestampe = speed();
 latensie = speed() - timestampe
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
-let message = await prepareWAMessageMedia({ video: fs.readFileSync('./XeonMedia/theme/cheems-bot.mp4'), gifPlayback:true }, { upload: XeonBotInc.waUploadToServer }) // you can put this for thumbnail after gifPlayback:true, jpegThumbnail:global.log0
+let message = await prepareWAMessageMedia({ video: fs.readFileSync('./XeonMedia/theme/Cheems-bot.mp4'), gifPlayback:true }, { upload: XeonBotInc.waUploadToServer }) // you can put this for thumbnail after gifPlayback:true, jpegThumbnail:global.log0
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 templateMessage: {
 hydratedTemplate: {
