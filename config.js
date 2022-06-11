@@ -10,6 +10,8 @@
 const fs = require("fs")
 const chalk = require("chalk")
 
+//api key
+
 //menu maker
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
@@ -58,6 +60,7 @@ global.ntvirtex = []
 global.wlcm = []
 global.gcrevoke = []
 
+
 //bot bomdy
 global.botname = "Cheems Bot MD V3" //ur bot name
 global.ownertag = "@916909137213" //ur anti-tag number
@@ -65,7 +68,7 @@ global.watermark = "Xeon Bot Inc." //ur watermark
 global.dogeemoji = "🐕" //ur emoji
 global.reactmoji = "😘" //ur react emoji
 global.packname = "🦄Dream Guy Xeon" //ur sticker pack name
-global.author = "Cheems Bot MD V3" //ur sticker author name
+global.author = "Cheems Bot MD V3\n\n\n\n\n\n\nMy Intro\nName: Xeon Ralte🦄\nAge:  14🧐\nStandard: 10th🚀\nFrom India Mizoram😌\nHobby: Coding👨🏼‍💻\nGoal: Software Devloper🥀" //ur sticker author name
 global.sessionName = "session"
 global.linkgrupss = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS" //ur gc link
 global.linkgrupss2 = "https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5" //ur gc link2
