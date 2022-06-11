@@ -206,7 +206,6 @@ const antiVirtex = m.isGroup ? ntvirtex.includes(from) : false
 const AntiNsfw = m.isGroup ? ntnsfw.includes(from) : false
 const welcm = m.isGroup ? wlcm.includes(from) : false
 const GcRvk = m.isGroup ? gcrevoke.includes(from) : false
-const Autoreply = m.isGroup ? autorep.includes(from) : false
 
 _sewa.expiredCheck(XeonBotInc, sewa)
 
@@ -289,28 +288,24 @@ const reply = (teks) => {
         }
         
 //auto reply by xeon
-  if (Autoreply)
         for (let anji of setik){
 				if (budy === anji){
 					result = fs.readFileSync(`./XeonMedia/sticker/${anji}.webp`)
 					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
-			  if (Autoreply)
 			for (let anju of vien){
 				if (budy === anju){
 					result = fs.readFileSync(`./XeonMedia/audio/${anju}.mp3`)
 					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 			}
-			  if (Autoreply)
 			for (let anjh of imagi){
 				if (budy === anjh){
 					result = fs.readFileSync(`./XeonMedia/image/${anjh}.jpg`)
 					XeonBotInc.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
-			  if (Autoreply)
 					for (let anjh of videox){
 				if (budy === anjh){
 					result = fs.readFileSync(`./XeonMedia/video/${anjh}.mp4`)
@@ -6767,7 +6762,6 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}antitoxic [on/off]
 ╠${prefix}antiwame [on/off]
 ╠${prefix}autorevoke [on/off]
-╠${prefix}autoreply [on/off]
 ╠${prefix}nsfw [on/off]
 ╠${prefix}mute [on/off]
 ╠${prefix}promote [reply/tag]
