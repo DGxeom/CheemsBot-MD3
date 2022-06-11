@@ -139,7 +139,6 @@ XeonBotInc.ev.on('group-participants.update', async (anu) => {
                     ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
 if (anu.action == 'add') {
-                	if (!wlcm.includes(anu.id)) return
                 hesa = `${participants}`
 		  mestes = (teks) => {
 					return teks.replace(/['@s whatsapp.net']/g, " ");
@@ -173,7 +172,7 @@ headerType: 4,
 XeonBotInc.sendMessage(m.chat, buttonMessage)
 
                 } else if (anu.action == 'remove') {
-                	if (!wlcm.includes(anu.id)) return
+              
                 hesa = `${participants}`
 		  mestes = (teks) => {
 					return teks.replace(/['@s whatsapp.net']/g, " ");
