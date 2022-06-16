@@ -33,10 +33,10 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/cheemsthumb.jpg") //ur error p
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemsthumb.jpg") //ur thumb pic
 
 //owmner v card
-global.owner = ['916909137213'] //ur owner number
-global.ownername = "🦄Dream Guy Xeon"
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
+global.owner = ['923032112917'] //ur owner number
+global.ownername = "YOuR NOBiTA💙👑"
+global.ytname = "YT: T-series" //ur yt chanel name
+global.socialm = "GitHub: I have don't github" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //damtabase
@@ -62,18 +62,18 @@ global.gcrevoke = []
 
 
 //bot bomdy
-global.botname = "Cheems Bot MD V3" //ur bot name
-global.ownertag = "@916909137213" //ur anti-tag number
-global.watermark = "Xeon Bot Inc." //ur watermark
-global.dogeemoji = "🐕" //ur emoji
-global.reactmoji = "😘" //ur react emoji
-global.packname = "🦄Dream Guy Xeon" //ur sticker pack name
+global.botname = "AYAZ'S Bot MD" //ur bot name
+global.ownertag = "@923032112917" //ur anti-tag number
+global.watermark = "AYaZ Bot Inc." //ur watermark
+global.dogeemoji = "🍃" //ur emoji
+global.reactmoji = "🇵🇰" //ur react emoji
+global.packname = "🌱Dream Guy AYaZ" //ur sticker pack name
 global.author = "Cheems Bot MDV3\n\n\n\n\nAm Xeon☣️\n14 years of age🧐\n\nFrom Mizoram, India🇮🇳\nMy hobby is coding🦄🥀" //ur sticker author name
 global.sessionName = "session"
-global.linkgrupss = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS" //ur gc link
-global.linkgrupss2 = "https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5" //ur gc link2
-global.websitex = "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A" //ur website
-global.botscript = "https://github.com/DGXeon/CheemsBot-MD3" //ur script link
+global.linkgrupss = "https://wa.me/923032112917" //ur gc link
+global.linkgrupss2 = "https://wa.me/923032112917" //ur gc link2
+global.websitex = "https://wa.me/923032112917" //ur website
+global.botscript = "https://wa.me/923032112917" //ur script link
 global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.mess = {
